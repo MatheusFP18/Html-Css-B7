@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "honda";
+    src: url(../font/hondafont.ttf);
+}
+
+:root {
+    --cor0: #000000;
+    --cor1: #333333;
+    --cor2: #666666;
+    --cor3: #ED0000;
+    --cor4: #FF0000;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: lightblue;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 990px;
+}
+
+.cabecalho {
+    width: 990px;
+    height: 100px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    font-family: 'roboto';
+    font-size: 10px;
+}
+
+.cabecalho .logo {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    width: 220px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.prin {
+    width: 990px;
+    background-color: rgb(241, 241, 241);
+    color: rgb(0, 0, 0);
+    font-family: 'roboto';
+    font-size: 10px;
+    border-top: 1px solid #000000;
+}
+
+.prin img {
+    display: flex;
+    margin: auto;
+    border: 1px solid #000;
+}
+
+.prin p {
+    font-size: 1.5em;
+    text-align: justify;
+    text-indent: 20px;
+    width: 700px;
+    margin: 15px 150px;
+}
+
+.prin h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.prin h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+#fic {
+    text-indent: 0px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape {
+    width: 990px;
+    background-color: rgb(241, 241, 241);
+    border-top: 1px solid black;
+}
+
+.rodape a {
+    text-decoration: none;
+}

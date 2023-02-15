@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+
+    <title>Formulário</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="cabecalho">
+                <h1>Cadastro Profissional</h1>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <main>
+                    <form action="cadastro.php">
+                        <fieldset>
+                            <legend>Dados Pessoais</legend>
+                            <div class="ainput">
+                                <label for="name">Nome:</label>
+                                <input type="text" name="name" id="name" placeholder="Digite sua idade" autofocus required minlength="3">
+                                
+                                <label for="number">Idade:</label>
+                                <input type="number" name="number" id="number" placeholder="Sua idade" required>
+                                
+                                <label for="email">E-mail:</label>
+                                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" minlength="8" max="30">
+                                
+                                <label for="tel">Contato:</label>
+                                <input type="tel" name="tel" id="tel" placeholder="(DDD) xxxxx-xxxx">
+                            </div>
+                            
+                            <div class="genero">
+                                <label for="gender">Gênero: </label>
+                                <label for="m"><input type="radio" name="gender" id="m" value="m"> Male</label>
+                                <label for="f"><input type="radio" name="gender" id="f" value="f"> Female</label>
+                            </div>
+
+                            <div class="ainput">
+                                <label for="prof">Profissão: </label>
+                                <select name="prof" id="prof">
+                                    <option value=""></option>
+                                    <option value="prof1">Designer</option>
+                                    <option value="prof2">Analista de Banco de Dados</option>
+                                    <option value="prof3">Full-Stack</option>
+                                    <option value="prof4">Front-End</option>
+                                    <option value="prof5">Back-End</option>
+                                </select>
+                            </div>
+
+                            <div class="botoes">
+                                <button class="submit" type="submit" name="submit">Entrar</button>
+                                <button class="reset" type="reset" name="reset">Limpar</button>
+                            </div>
+                        </fieldset>
+                    </form>
+            </main>
+        </div>
+    </section>
+</body>
+
+</html>
