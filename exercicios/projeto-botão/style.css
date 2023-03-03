@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #00f, #f00);
+    color: #fff;
+    transition: 0.3s;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button:hover {
+    width: 220px;
+    height: 80px;
+    transition: 0.3s;
+
+    background-image: linear-gradient(to right, #f00, #00f);
+}

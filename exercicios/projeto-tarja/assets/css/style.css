@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.tarja a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+.tarja {
+    background-image: linear-gradient(to right, #82ff00, #097879);
+    transform: rotate(-45deg);
+    margin-top: 50px;
+    left: -70px;
+    position: absolute;  
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.473); 
+    border: 1px solid #000;
+    outline: 1px solid #000000;
+    outline-offset: -5px;
+}
+
+.tarja a:hover {
+    background-image: linear-gradient(to right, #00ff38, #093d79);
+}
