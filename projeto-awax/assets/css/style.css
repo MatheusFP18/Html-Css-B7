@@ -195,7 +195,7 @@ header {
 }
 
 .default .light {
-    background-color: #F7F7F7;
+    background-color: #dbdbdb;
 }
 
 .default.light .section-title, .default.light .section-body {
@@ -538,4 +538,15 @@ header {
 .section-companies img {
     width: 100px;
     height: 50px;
+}
+
+.section-price
+
+.section-price-area {
+    width: 250px;
+    height: 400px;
+    background-color: #555;
+    color: #FFF;
+    margin: 10px;
+    display: inline-flex;
 }
