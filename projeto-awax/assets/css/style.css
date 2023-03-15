@@ -455,6 +455,11 @@ header {
     background-color: #B28756;
 }
 
+.section-clients-full {
+    background-color: rgb(243, 243, 243);
+    border-bottom: 1px solid #999;
+}
+
 .section-clients {
     display: flex;
 }
@@ -514,4 +519,23 @@ header {
 
 .section-clients-area .pointer.active {
     background-color: #B28756;
+}
+
+.section-companies-full {
+    height: 200px;
+    border-bottom: 1px solid #333;
+}   
+
+.section-companies-area {
+    display: flex;
+    justify-content: center;
+}
+
+.section-companies {
+    padding: 45px;
+}
+
+.section-companies img {
+    width: 100px;
+    height: 50px;
 }
