@@ -472,22 +472,37 @@ header {
     
 }
 
+.section-clients-name {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.section-clients-role {
+    margin-top: 5px;
+}
+
+.section-clients-quote {
+    margin-top: 25px;
+}
+
 .section-clients p {
+    margin-top: 10px;
+    text-align: center;
     font-size: 12px;
     line-height: 20px;
 }
 
-
-
-.section-clients .sliders-pointers {
+.section-clients-area .sliders-pointers {
     width: 100vw;
     height: 20px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section-clients .pointer {
+.section-clients-area .pointer {
     width: 15px;
     height: 15px;
     border: 2px solid #B28756;
@@ -497,7 +512,6 @@ header {
     cursor: pointer;
 }
 
-.section-clients .pointer.active {
+.section-clients-area .pointer.active {
     background-color: #B28756;
 }
-
