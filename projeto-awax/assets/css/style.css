@@ -540,13 +540,70 @@ header {
     height: 50px;
 }
 
-.section-price
+.price {
+    background-color: #e9e7e7;
+}
+
+.section-price {
+    display: flex;
+    
+}
+
+.section-price-desc {  
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #a0a0a0;
+    margin-top: 8px;
+    margin-bottom: 40px;
+    text-align: center;
+}
 
 .section-price-area {
-    width: 250px;
-    height: 400px;
-    background-color: #555;
+    background-color: #FFF;
     color: #FFF;
     margin: 10px;
     display: inline-flex;
+}
+
+.section-price-plan {
+    color: #000;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.section-price-plan h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.section-price-month {
+    margin-bottom: 25px;
+    color: #CCC;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.section-price-plan p {
+    color: #888;
+}
+
+.section-price-plan .button-price {
+    font-size: 15px;
+    width: 150px;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 25px;
+    background-color: #333;
+}
+
+.section-price-plan .button-price:hover {
+    background-color: #B28756;
+}
+
+.section-price-plan .button-price-active {
+    background-color: #B28756;
 }
