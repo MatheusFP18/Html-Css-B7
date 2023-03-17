@@ -609,3 +609,14 @@ header {
     background-color: #B28756;
 }
 
+.section-prem-area {
+    display: inline-flex;
+}
+
+.prem-check {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    padding-left: 30px;
+    font-size: 15px;
+}
