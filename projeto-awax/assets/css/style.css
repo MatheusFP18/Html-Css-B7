@@ -610,13 +610,92 @@ header {
 }
 
 .section-prem-area {
-    display: inline-flex;
+    display: flex;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.section-prem-prod {
+    width: 520px;
+    text-align: center;
+}
+
+.section-prem-prod img {
+    width: 400px;
+    height: 400px;
 }
 
 .prem-check {
+    display: flex;
+    margin-top: 20px;
     text-transform: uppercase;
     color: #000;
     font-weight: 600;
     padding-left: 30px;
     font-size: 15px;
+}
+
+.prem-check img {
+    width: 25px;
+    height: 25px;
+}
+
+.prem-check span {
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.section-prem-cont {
+    margin-left: 40px;
+    color: #CCC;
+}
+
+.prem-subtitle {
+    font-size: 15px;
+    margin-left: 85px;
+    padding-top: 5px;
+    line-height: 20px;
+}
+
+.prem-desc {
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.section-prem-pointers {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.section-prem-pointers .sliders-pointers {
+    width: 100vw;
+    height: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-prem-pointers .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-prem-pointers .pointer.active {
+    background-color: #B28756;
+}
+
+.section-prem-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
