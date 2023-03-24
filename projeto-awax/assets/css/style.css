@@ -699,3 +699,51 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+.section-some-area {
+    display: flex;
+    margin: 10px;
+}
+
+.section-some-value {
+    flex: 1;
+    height: 120px;
+    padding: 0px 70px;
+}
+
+.section-some-value .some-value {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #B28756;
+}
+
+.some-bar, .some-cont, .some-cont p {
+    margin-top: 5px;
+}
+
+.section-some-value .some-bar {
+    margin-left: 60px;
+    
+    border: 2px solid #B28756;
+    width: 15px;
+}
+
+.section-some-value .some-cont {
+    text-align: center; 
+}
+
+.some-cont h4 {
+    text-transform: uppercase;
+}
+
+.some-cont p {
+    text-align: left;
+    font-size: 12px;
+    color: #CCC;
+}
+
+.some-cont-space p {
+    margin-top: 22px;
+}
