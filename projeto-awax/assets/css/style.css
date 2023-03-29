@@ -522,17 +522,20 @@ header {
 }
 
 .section-companies-full {
-    height: 200px;
+    height: 150px;
     border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: end;
 }   
 
 .section-companies-area {
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .section-companies {
-    padding: 45px;
+    padding-left: 55px;
 }
 
 .section-companies img {
@@ -750,11 +753,13 @@ header {
 
 .section-social {
     border-bottom: 1px solid #ccc;
+    height: 50px;
 }   
 
 .section-social-area {
     display: flex;
     justify-content: center;
+    align-items: ;
 }
 
 .section-social-item {
@@ -762,6 +767,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-right: 20px;
+    margin-top: -10px;
     text-transform: uppercase;
     font-size: 12px;
     color: #CCC;
