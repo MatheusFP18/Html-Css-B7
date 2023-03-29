@@ -747,3 +747,62 @@ header {
 .some-cont-space p {
     margin-top: 22px;
 }
+
+.section-social {
+    border-bottom: 1px solid #ccc;
+}   
+
+.section-social-area {
+    display: flex;
+    justify-content: center;
+}
+
+.section-social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #CCC;
+}
+
+.section-social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.section-social-icon img {
+    height: 12px;
+}
+
+.section-social-icon.share img {
+    background-color: #FFF;
+    width: 20px;
+    height: 20px;
+}
+
+.section-social-icon.twitter {
+    background-color: #34c5f0;
+}
+
+.section-social-icon.linkedin {
+    background-color: #127cb4;
+}
+
+.section-social-icon.facebook {
+    background-color: #336297;
+}
+
+.section-social-icon.googleplus {
+    background-color: #e74237;    
+}
+
+.section-social-icon.pinterest {
+    background-color: #b71c29;
+}
