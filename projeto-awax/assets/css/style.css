@@ -759,7 +759,7 @@ header {
 .section-social-area {
     display: flex;
     justify-content: center;
-    align-items: ;
+    align-items: center;
 }
 
 .section-social-item {
@@ -816,4 +816,44 @@ header {
 
 .section-social-icon.pinterest {
     background-color: #b71c29;
+}
+
+.section-contact {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-contact-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-contact-top input {
+    margin-bottom: 30px;
+}
+
+.section-contact input {
+    border: 0;
+    border-bottom: 1px solid #CCC;
+    margin-right: 35px;
+}
+
+.section-contact label {
+    display: flex;
+    flex-direction: column;
+    color: #AAA;
+    font-weight: 600;
+}
+
+.section-contact-input.msg {
+    margin-top: 100px;
+}
+
+.section-contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

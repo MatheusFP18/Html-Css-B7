@@ -639,7 +639,7 @@
 
         </section>
 
-        <section class="default light">
+        <section class="default light section-contact">
             
             <div class="section-title">Contact us</div>
 
@@ -648,17 +648,18 @@
             <div class="section-body">
                <div class="section-contact-area">
                    <form action="contact.php" method="get">
-                   <div class="section-contact-input">
-                       <label for="name">
-                        Name
-                        <input type="text" name="name" id="name"></label>
+                   <div class="section-contact-top">
+                       <div class="section-contact-input">
+                           <label for="name">
+                            Name
+                            <input type="text" name="name" id="name"></label>
+                       </div>
+                       <div class="section-contact-input">
+                        <label for="email">
+                            Email
+                         <input type="email" name="email" id="email"></label>
+                                       </div>
                    </div>
-
-                   <div class="section-contact-input">
-                    <label for="email">
-                        Email
-                     <input type="email" name="email" id="email"></label>
-                </div>
 
                 <div class="section-contact-input">
                     <label for="subject">
@@ -666,14 +667,18 @@
                      <input type="text" name="subject" id="subject"></label>
                 </div>
 
-                <div class="section-contact-input">
+                <div class="section-contact-input msg">
                     <label for="msg">
                         Message
                      <input type="text" name="msg" id="msg"></label>
                 </div>
                    </form>
-               </div>
-            </div>
+                </div>
+
+                <div class="section-contact-button">
+                    <a href="#" class="button">Send message</a>
+                </div>
+        </div>
         </section>
     </main>
 
