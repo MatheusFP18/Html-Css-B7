@@ -901,3 +901,19 @@ header {
     width: 15px;
     height: auto;
 }
+
+/* ÁREA DO RODAPÉ */    
+
+.footer-area {
+    background-color: #000;
+    width: 100vw;
+    height: 300px;
+}
+
+.footer-area1 {
+    display: flex;
+}
+
+.footer-area1-social {
+    background-color: #888;
+}
