@@ -968,25 +968,46 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .footer-area3-form {
     display: flex;
-    background-color: #555;
+    justify-content: center;
+    align-items: center;
     width: 400px;
     height: 200px;
+}
+
+.footer-area3-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: #555;
 }
 
 .footer-area3 form {
     display: flex;
     justify-content: center;
-    background-color: #555;
+    align-items: center;
 }
 
 .footer-area3 label {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
+    color: #AAA;
+    text-transform: uppercase;
+}
+
+.footer-area3 input {
+    border: 0;
+    background-color: #555;
+    border-bottom: 1px solid #AAA;
+    width: 200px;
 }
 
 .footer-area3 a {
@@ -995,4 +1016,5 @@ footer {
     justify-content: center;
     width: 100px;
     height: 30px;
+    margin-left: 50px;
 }
